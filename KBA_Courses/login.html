@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            background-color: lavender;
+            
+        }
+        
+        .boxModel{
+            background-color: azure;
+            width: 400px;
+            height: 400px;
+            margin: 200px 200px;
+            padding: 50px 50px;
+            
+
+            
+        }
+
+        h1{
+            color: blueviolet;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        input{
+            width: 300px;
+            height: 25px;
+            border: 1px rgb(rgb(204, 207, 207), green, blue); 
+            padding: 5px;
+            margin-bottom: 5px;
+        }
+        label{
+            display: block;
+            margin-bottom: 5x;
+        }
+    
+
+        .main{
+            width: 100px;
+            height: 40px;
+            font-size: large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 4px;
+            background-color: rgb(155, 72, 233);
+
+        }
+
+        .button{
+            display: flex;
+            justify-content: space-around ;  
+            margin-top: 100px;
+        }
+        .signup{
+            text-align: center;
+        }
+        p a{
+            text-decoration: none;
+        }
+        .button a {
+            text-decoration: none;
+        }
+        
+       
+    </style>
+</head>
+<body style="display: flex;justify-content: center;">
+<form class="boxModel">
+    <h1>Login</h1>
+    <br>
+    <label for="email">Email:</label><br>
+    <input type="email" required><br>
+    <label for="password">Password:</label><br>
+    <input type="password" required><br>
+    <div class="button">
+        <input class="main" type="submit" value="Login">
+        <a href="Forget">Forget Password?</a></div>
+        <div class="signup">
+            <p > Don't have an Account?<a href="signup.html"> Sign Up</a></p>
+        </div>
+
+      
+</form>
+     
+</body>
+</html>

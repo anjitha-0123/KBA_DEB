@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addcourse</title>
+  <style>
+    nav{
+        display: flex;justify-content: space-between;
+        background-color: plum;         
+    }
+    nav a img{
+        width: 30px;
+        height: 35px;
+        padding: 3px;    
+    }
+    .bar{
+        margin-top: 10px;
+    }
+    nav .bar a{
+        text-decoration: none;
+        padding: 20px;   
+    }
+    .boxModel{
+            border-radius: 5px;
+            background-color: rgb(243, 181, 235);
+            width:400px;
+            height:600px;
+            margin: 100px 600px;
+            padding: 50px 50px;
+            box-shadow: 5px color(srgb red green rgb(1, 1, 22));
+    }
+   h2{
+        color: rgb(123, 17, 165);
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+   }
+   .boxModel input{
+    width: 350px;
+    height: 25px;
+    border-color: rgb(253, 255, 253);
+   }
+   .boxModel select{
+    width: 350px;
+    height: 25px;
+    border-color: rgb(253, 255, 253);
+   }
+   .boxModel textarea{
+    width: 350px;
+    border-color: rgb(253, 255, 253);
+   }
+  .button input{
+    background-color: blueviolet;
+    border-color: rgb(222, 190, 230);
+    width: 350x;
+    height: 35px;
+    border-radius: 20px;
+    color: rgb(238, 238, 226);
+
+  }
+ 
+  </style>
+    
+   
+</head>
+<body>
+    <nav> 
+        <div class="image">
+        <a><img src="Logo1.png" placeholder="logo"></a>
+        </div>
+        <div class="bar">
+            <a href="Home.htm">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="contactUs.html">Contact Us</a>
+            <a href="addcourse.html">Add Course</a>
+            <a href="login.html">Logout</a>
+        </div>
+    </nav>
+    <div>
+        <form class="boxModel">
+            <h2> Add Course</h2><br>
+            
+            <label for="Course Name">Course Name</label><br><br>
+            <input type="text" placeholder="eg. Certified Blockchain Associate"><br><br>
+            
+            <label for="Course Id">Course Id</label><br><br>
+            <input type="text" placeholder="eg. 1"><br><br>
+           
+            <label for="Course Type">Course Type</label><br><br>
+            <select><option> Self-Paced</option></select><br><br>
+            
+            <label for="Description">Description</label><br><br>
+            <textarea rows="5" cols="21" placeholder="Small description on the course "></textarea><br><br>
+            
+            <label for="Price">Price</label><br><br>
+            <select><option>Rs.5000</option></select><br><br><br>
+           
+            <div class="button">
+                <input type="submit" value="Add Course">
+            </div>
+
+        </form>
+    </div>
+    
+</body>
+</html>
